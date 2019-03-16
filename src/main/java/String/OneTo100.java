@@ -1,6 +1,8 @@
 package String;
 
-public class OntTo100 {
+import java.util.StringJoiner;
+
+public class OneTo100 {
 
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder();
@@ -9,5 +11,11 @@ public class OntTo100 {
 
         }
         System.out.println(builder.append(100).toString());
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", OneTo100.class.getSimpleName() + "[", "]")
+                .toString();
     }
 }
