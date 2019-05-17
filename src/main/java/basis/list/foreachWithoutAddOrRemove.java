@@ -1,4 +1,4 @@
-package list;
+package basis.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -17,7 +17,7 @@ public class foreachWithoutAddOrRemove {
                 iterator.remove();
             }
         }
-        System.out.println("list:"+list);
+        System.out.println("basis.list:"+list);
         System.out.println("iterator:"+iterator);
 
 

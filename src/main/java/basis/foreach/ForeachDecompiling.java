@@ -1,4 +1,4 @@
-package foreach;
+package basis.foreach;
 
 import java.util.ArrayList;
 import java.util.Iterator;

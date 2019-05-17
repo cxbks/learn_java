@@ -1,4 +1,4 @@
-package String;
+package basis.String;
 
 public class ImmutableStrings {
     public static void main(String[] args) {

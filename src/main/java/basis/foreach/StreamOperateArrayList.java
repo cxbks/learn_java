@@ -1,8 +1,7 @@
-package foreach;
+package basis.foreach;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * 功能：使用Stream及filter 进行ArrayList操作
@@ -22,7 +21,7 @@ public class StreamOperateArrayList {
             add("H");
         }};
 
-        userNames = userNames.stream().filter(userName -> !userName.equals("Hollis")).collect(Collectors.toList());
-        System.out.println(userNames);
+//        userNames = userNames.stream().filter(userName -> !userName.equals("Hollis")).collect(Collectors.toList());
+//        System.out.println(userNames);
     }
 }

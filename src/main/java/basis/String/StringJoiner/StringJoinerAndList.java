@@ -1,4 +1,4 @@
-package String.StringJoiner;
+package basis.String.StringJoiner;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class StringJoinerAndList {
     List<String> list = new ArrayList();
-//    list.add("Hollis");
+//    basis.list.add("Hollis");
 
 
 
