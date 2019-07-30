@@ -15,6 +15,7 @@ public class VipBuyer implements Buyer {
      *
      * @param orderPrice
      */
+    @Override
     public BigDecimal calPrice(BigDecimal orderPrice) {
         int  superVipExpiredDays  = 1;
 //        int superVipLeadDiscountTimes  = 2;
